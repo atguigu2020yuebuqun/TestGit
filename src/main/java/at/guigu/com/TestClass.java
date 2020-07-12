@@ -20,6 +20,7 @@ public class TestClass {
 	public String toString() {
 		System.out.println("TestGit3");
 		System.out.println("TestGit");
+		System.out.println("hot_fix");
 		return "TestClass [name=" + name + ", age=" + age + "]";
 	}
 	
