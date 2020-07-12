@@ -19,6 +19,7 @@ public class TestClass {
 	@Override
 	public String toString() {
 		System.out.println("TestGit3");
+		System.out.println("TestGit");
 		return "TestClass [name=" + name + ", age=" + age + "]";
 	}
 	
