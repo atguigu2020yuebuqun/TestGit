@@ -16,6 +16,11 @@ public class TestClass {
 	public void setAge(Integer age) {
 		this.age = age;
 	}
+	@Override
+	public String toString() {
+		System.out.println("TestGit3");
+		return "TestClass [name=" + name + ", age=" + age + "]";
+	}
 	
 	
 }
